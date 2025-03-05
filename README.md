@@ -32,7 +32,7 @@ pip install h5py==2.10.0
 ### Please download large protein language model from the http://modinfor.com/MetaDegron/Download/weights.hdf5. Note: right click - > save the link
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
-Please cd to the folder which contains DrKinase_Prediction.py.
+Please cd to the folder which contains DrKinase_prediction.py.
 ```
 python DrKinase_prediction.py -inf 'test/test.txt' -mof 'Gatekeeper' 'G-loop' 'A-loop' 'αC-Helix' -out 'prediction/'
 ```
