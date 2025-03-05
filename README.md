@@ -6,14 +6,14 @@ Protein kinases (PKs) regulate various cellular functions, and targeted by small
 <div align=center><img src="http://modinfor.com/MetaDegron/images/index_workflow.png" width="800px"></div>
 
 # Installation
-Download MetaDegron by
+Download Dr. Kinase by
 ```
-git clone https://github.com/BioDataStudy/MetaDegron.git
+git clone https://github.com/BioDataStudy/DrKinase.git
 ```
-Installation has been tested in Linux server, CentOS Linux release 7.8.2003 (Core), with Python 3.7. Since the package is written in python 3x, python3x with the pip tool must be installed. MetaDegron uses the following dependencies: numpy, scipy, pandas, h5py, torch, allennlp, keras version=2.3.1, tensorflow=1.15 shutil, and pathlib. We highly recommend that users leave a message under the MetaDegron issue interface (https://github.com/BioDataStudy/MetaDegron/issue) when encountering any installation and running problems. We will deal with it in time. You can install these packages by the following commands:
+Installation has been tested in Linux server, CentOS Linux release 7.8.2003 (Core), with Python 3.7. Since the package is written in python 3x, python3x with the pip tool must be installed. Dr. Kinase uses the following dependencies: numpy, scipy, pandas, h5py, torch, allennlp, keras version=2.3.1, tensorflow=1.15 shutil, and pathlib. We highly recommend that users leave a message under the MetaDegron issue interface (https://github.com/BioDataStudy/DrKinase/issue) when encountering any installation and running problems. We will deal with it in time. You can install these packages by the following commands:
 ```
-conda create -n MetaDegron python=3.7
-conda activate MetaDegron
+conda create -n DrKinase python=3.7
+conda activate DrKinase
 pip install pandas
 pip install numpy
 pip install scipy
@@ -32,5 +32,4 @@ pip install h5py==2.10.0
 ### Please download large protein language model from the http://modinfor.com/MetaDegron/Download/weights.hdf5. Note: right click - > save the link
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
-### Please download the training dataset (>200M, Unable to upload to github) from the http://modinfor.com/MetaDegron/Download/all_train_embedding.npy. Note: right click - > save the link
-### Copy or move the all_train_embedding.npy file to the data/ directory to ensure that the train_embedding can be loaded successfully
+
