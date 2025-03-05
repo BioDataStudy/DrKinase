@@ -34,9 +34,7 @@ pip install h5py==2.10.0
 
 Please cd to the folder which contains DrKinase_Prediction.py.
 ```
-cd DrKinase_Prediction/
-
-python DrKinase_Prediction.py -inf './data/test_data.txt' -out './prediction'
+python DrKinase_prediction.py -inf 'test/test.txt' -mof 'Gatekeeper' 'G-loop' 'A-loop' 'αC-Helix' -out 'prediction/'
 ```
 For details of other parameters, run:
 ```
