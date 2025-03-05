@@ -3,6 +3,8 @@
 
 Protein kinases (PKs) regulate various cellular functions, and targeted by small-molecule kinase inhibitors (KIs) in cancers and other diseases. However, drug-resistance (DR) of KIs through critical mutations in four types of representative hotspots, including gatekeeper, G-loop, αC-helix, and A-loop. KI drug-resistance has become a common clinical complication affecting multiple cancers, targeted kinases and drugs. To tackle on this challenge, we report an upgraded webserver, namely Dr. Kinase, for predicting the loci of four DR hotspots for PKs upon our previous studies, by utilizing multimodal features and deep hybrid learning. The performance of Dr. Kinase has been rigorously evaluated using independent testing, demonstrating excellent accuracy with area under the curve (AUC) values exceeding 0.89 in different types of DR hotspot predictions. We further conducted in silico analyses to evaluate and validate the epidermal growth factor receptor mutations on protein conformation and KIs-binding efficacy. Dr. Kinase is freely available at http://modinfor.com/drkinase, with comprehensive annotations and visualizations. We anticipate that Dr. Kinase will be a highly useful service for basic, translational, and clinical community to unveil the molecular mechanisms of DR and the develop of next-generation KIs for emerging cancer precision medicine.
 
+<div align=center><img src="http://modinfor.com/MetaDegron/images/index_workflow.png" width="800px"></div>
+
 # Installation
 Download Dr. Kinase by
 ```
@@ -32,9 +34,9 @@ pip install h5py==2.10.0
 
 Please cd to the folder which contains DrKinase_Prediction.py.
 ```
-cd DeepTR_Prediction/
+cd DrKinase_Prediction/
 
-python DrKinase_Prediction.py -inf './data/test_tcr.txt' -out './prediction'
+python DrKinase_Prediction.py -inf './data/test_data.txt' -out './prediction'
 ```
 For details of other parameters, run:
 ```
